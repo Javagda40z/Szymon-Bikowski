@@ -1,4 +1,4 @@
-package zadanieDomowe.Obiektowosc;
+package zadanieDomowe.obiektowosc;
 
 public class Kolo extends Figury {
     private int promien;

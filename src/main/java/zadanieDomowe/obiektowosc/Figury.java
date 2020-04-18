@@ -1,4 +1,4 @@
-package zadanieDomowe.Obiektowosc;
+package zadanieDomowe.obiektowosc;
 
 public abstract class Figury {
     double polePowierzchni;

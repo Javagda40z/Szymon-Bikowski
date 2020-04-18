@@ -1,4 +1,4 @@
-package zadanieDomowe.Obiektowosc;
+package zadanieDomowe.obiektowosc;
 
 import java.util.ArrayList;
 import java.util.List;
