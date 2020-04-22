@@ -22,6 +22,7 @@ public class SuperCzlowiek extends Czlowiek {
     public int hashCode() {
         int result = super.hashCode();
         result = 31 * result + cokolwiek;
+        Integer[] array = new Integer[10];
         return result;
     }
 
