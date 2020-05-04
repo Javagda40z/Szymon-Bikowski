@@ -1,9 +1,9 @@
 package zadanieDomowe.obiektowosc;
 
 public abstract class Figury {
-    double polePowierzchni;
-    String kolor;
-    String name;
+    private double polePowierzchni;
+    private String kolor;
+    private String name;
 
     public Figury(){
 

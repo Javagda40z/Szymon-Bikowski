@@ -46,7 +46,9 @@ public class Tablice {
     }
 
     public static String min(int[] tablica) {
-        if (tablica.length != 0) {
+        if (tablica.length == 0) {
+            return "tablica jest pusta";
+        } else {
             int min = tablica[0];
             for (int element : tablica) {
                 if (element < min)
@@ -54,7 +56,6 @@ public class Tablice {
             }
             return "" + min;
         }
-        return "tablica jest pusta";
     }
 
     public static int suma(int[]... tablica) {
@@ -104,7 +105,7 @@ public class Tablice {
     public static int[] odwroconaTablica(int[] tablica) {
         int[] odwrotnaTablica = new int[tablica.length];
         for (int i = 0; i < tablica.length; i++) {
-            odwrotnaTablica[(tablica.length -1)- i] = tablica[i];
+            odwrotnaTablica[(tablica.length - 1) - i] = tablica[i];
         }
         return odwrotnaTablica;
     }

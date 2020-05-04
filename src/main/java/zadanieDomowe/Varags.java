@@ -1,13 +1,14 @@
 package zadanieDomowe;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Varags {
 
     public static void main(String[] args) {
-        nElementow(1,2,3,4,5);
-        nImion("Justyna","Tomasz","Beata","Szymon","Iga");
+        nElementow(1, 2, 3, 4, 5);
+        nImion("Justyna", "Tomasz", "Beata", "Szymon", "Iga");
 
     }
 
@@ -19,7 +20,7 @@ public class Varags {
             suma += elemnt[i];
         }
 
-        for (int j:elemnt) {
+        for (int j : elemnt) {
             wynik += j;
         }
 
@@ -33,22 +34,16 @@ public class Varags {
 
     }
 
-    public static void nImion(String imie, String... imiona){
+    public static void nImion(String... imiona) {
         int element = 0;
         List<String> listaImion = new ArrayList<>();
-        for (String i : imiona){
-            listaImion.add(i);
-        }
+        listaImion.addAll(Arrays.asList(imiona));
 
-        while (element < imiona.length){
+        while (element < imiona.length) {
             System.out.println(imiona[element]);
             element++;
         }
     }
-
-
-
-
 
 
 }
