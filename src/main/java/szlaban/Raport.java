@@ -1,4 +1,4 @@
-package bramka;
+package szlaban;
 
 import pojazd.Typ;
 

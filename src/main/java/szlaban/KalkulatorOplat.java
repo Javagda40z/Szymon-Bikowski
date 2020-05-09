@@ -1,6 +1,5 @@
-package bramka;
+package szlaban;
 
-import pojazd.Paliwo;
 import pojazd.Pojazd;
 import util.KalkulatorUtil;
 

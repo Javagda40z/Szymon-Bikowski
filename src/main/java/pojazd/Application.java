@@ -1,9 +1,9 @@
 package pojazd;
 
-import bramka.Bramka;
-import bramka.KalkulatorOplat;
-import bramka.Raport;
-import bramka.RejestrPojazdow;
+import szlaban.Bramka;
+import szlaban.KalkulatorOplat;
+import szlaban.Raport;
+import szlaban.RejestrPojazdow;
 
 public class Application{
     //Sprawdzenie czy jest miejsce
