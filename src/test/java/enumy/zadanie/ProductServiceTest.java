@@ -4,11 +4,16 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
+import static enumy.zadanie.ProductType.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ProductServiceTest {
+
+
+
     List<Product> owoce;
 
     @BeforeEach

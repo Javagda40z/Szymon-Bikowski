@@ -6,6 +6,8 @@ import java.util.List;
 
 public class ProductService {
 
+    private final List<Product> products;
+
     public static List<Product> retrieveFruits(List<Product> products) {
         List<Product> owoce = new ArrayList<>();
 
@@ -16,5 +18,10 @@ public class ProductService {
         }
         return owoce;
     }
+
+    public ProductService(List<Product> products) {
+        this.products = products;
+    }
+
 
 }

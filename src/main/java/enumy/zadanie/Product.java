@@ -6,6 +6,7 @@ public class Product {
     private double weight;
     private ProductType productType;
 
+
     public String getName() {
         return name;
     }
